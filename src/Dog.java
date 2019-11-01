@@ -5,7 +5,6 @@ public class Dog
     private double weight;
     private static int dogCount;
 
-
     public Dog()
     {
         name = null;
@@ -24,7 +23,7 @@ public class Dog
         dogCount++;
     } //full constructor
 
-
+    
     //getters
     public String getName()
     {
@@ -85,6 +84,7 @@ public class Dog
         return output;
     } //end brain method to convert to kg
 
+    
     public String toString()
     {
         String output = "";
